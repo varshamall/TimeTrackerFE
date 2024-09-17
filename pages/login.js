@@ -47,8 +47,8 @@ export function createLoginForm() {
         </div>
       </div>
       <div>
-        <button type="submit" style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #087830; color: white; width: 100%; font-size: 16px; cursor: pointer;">
-        Sign In
+        <button type="submit" style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #6200EA; color: white; width: 100%; font-size: 16px; cursor: pointer;">
+        Login
         </button>
       </div>
     </form>
