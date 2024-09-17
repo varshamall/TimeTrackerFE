@@ -1,7 +1,7 @@
 //app.js
 
 //imports
-import {createLoginForm} from '../components/login.js';
+import {createLoginForm} from '../pages/login.js';
 
 // Initialize the application
 function initApp() {
