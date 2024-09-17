@@ -10,11 +10,11 @@ export function createLoginForm() {
   formContainer.style.alignItems = "center";
   formContainer.style.height = "100vh";
 
-  // Create a smaller box that will contain the title, email, and password fields (green box)
+  // Create a smaller box that will contain the title, email, and password fields 
   const innerBox = document.createElement("div");
   innerBox.style.backgroundColor = "black"; 
-  innerBox.style.padding = "40px"; // Padding for space inside the green box
-  innerBox.style.borderRadius = "10px"; // Rounded corners
+  innerBox.style.padding = "40px"; 
+  innerBox.style.borderRadius = "10px"; 
   innerBox.style.display = "flex";
   innerBox.style.flexDirection = "column";
   innerBox.style.alignItems = "center";
@@ -54,10 +54,10 @@ export function createLoginForm() {
     </form>
   `;
 
-  // Append the inner green box to the black container
+
   formContainer.appendChild(innerBox);
 
-  // Optional: Handle form submission
+
   formContainer
     .querySelector("#login-form")
     .addEventListener("submit", function (event) {
@@ -66,8 +66,7 @@ export function createLoginForm() {
       const password = event.target.password.value;
       console.log("Email:", email);
       console.log("Password:", password);
-      // Here you can add more login logic
     });
 
-  return formContainer; // Return the created container
+  return formContainer; 
 }
