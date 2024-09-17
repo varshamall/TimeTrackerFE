@@ -1,4 +1,4 @@
-export function createLoginForm() {
+export function createLoginForm() { 
   // Create the container
   const formContainer = document.createElement("div");
 
