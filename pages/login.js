@@ -2,7 +2,7 @@ export function createLoginForm() {
   // Create the container
   const formContainer = document.createElement("div");
 
-  // Set the overall container styles (black background)
+  // Set the overall container styles 
   formContainer.style.backgroundColor = "black"; // Black background for the full screen
   formContainer.style.display = "flex";
   formContainer.style.flexDirection = "column";
@@ -32,7 +32,7 @@ export function createLoginForm() {
           <input type="email" id="email" name="email" required placeholder="Enter your email address"
             style="width: 100%; padding: 10px; padding-right: 40px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box; color: #5f6368;">
           <span style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); color: #5f6368;">
-            &#x2709;
+            &#x270b9;
           </span>
         </div>
       </div>
